@@ -10,9 +10,12 @@ public abstract class CelestialBody {
         this.y = y;
     }
 
-    public String getName() { return name; }
-    public double getX() { return x; }
-    public double getY() { return y; }
+    public String getName() {
+        return name;}
+    public double getX() {
+        return x;}
+    public double getY() {
+        return y;}
 
     public double distanceTo(CelestialBody other) {
         if (other == null) throw new IllegalArgumentException("Other body cannot be null");

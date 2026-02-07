@@ -34,12 +34,19 @@ public class DeliveryTask {
         return distance / speed;
     }
 
-    public CelestialBody getOrigin() { return origin; }
-    public CelestialBody getDestination() { return destination; }
-    public Cargo getCargo() { return cargo; }
-    public TaskState getState() { return state; }
-    public Drone getAssignedDrone() { return assignedDrone; }
+    public CelestialBody getOrigin() {
+        return origin;}
+    public CelestialBody getDestination() {
+        return destination;}
+    public Cargo getCargo() {
+        return cargo;}
+    public TaskState getState() {
+        return state;}
+    public Drone getAssignedDrone() {
+        return assignedDrone;}
 
-    public void setState(TaskState state) { this.state = state; }
-    public void setAssignedDrone(Drone drone) { this.assignedDrone = drone; }
+    public void setState(TaskState state) {
+        this.state = state;}
+    public void setAssignedDrone(Drone drone) {
+        this.assignedDrone = drone;}
 }
