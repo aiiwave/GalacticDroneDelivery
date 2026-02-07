@@ -13,8 +13,12 @@ public abstract class Drone {
 
     public abstract double speedKmPerMin();
 
-    public String getId() { return id; }
-    public DroneStatus getStatus() { return status; }
-    public void setStatus(DroneStatus status) { this.status = status; }
-    public double getMaxPayloadKg() { return maxPayloadKg; }
+    public String getId() {
+        return id;}
+    public DroneStatus getStatus() {
+        return status;}
+    public void setStatus(DroneStatus status) {
+        this.status = status;}
+    public double getMaxPayloadKg() {
+        return maxPayloadKg;}
 }

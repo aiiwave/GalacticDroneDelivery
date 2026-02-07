@@ -8,5 +8,6 @@ public class Cargo {
         this.weightKg = weightKg;
         this.description = description;
     }
-    public double getWeightKg() { return weightKg; }
+    public double getWeightKg() {
+        return weightKg;}
 }
